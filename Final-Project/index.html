@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Tribute Page - Princess Diana</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Exo%7CKaushan+Script&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://kit.fontawesome.com/2e918371a2.js"></script>
+	</head>
+
+    <body>
+		<!--Beginning of the visual content of the document -->
+		<!-- here the navigation bar -->
+		<header>
+			<nav class="navigation">
+				<a href="#home" class="links">Home</a>
+				<a href="#biography" class="links">Biography</a>
+				<a href="#famyli" class="links">Famyli</a>
+				<a href="#info" class="links">More Info</a>
+			</nav>
+			<span class="openbtn" onclick="openNav()">&#9776; </span>
+			<nav id="myNav" class="overlay">
+				<a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a href="#home" onclick="closeNav()">Home</a>
+					<a href="#biography" onclick="closeNav()">Biography</a>
+					<a href="#awards" onclick="closeNav()">Awards</a>
+					<a href="#info" onclick="closeNav()">More Info</a>
+				</div>
+			</nav>
+		</header>
+        <!-- main information -->
+		<main id="home">
+			<!-- Hero image -->
+			<section class="img-div">
+				<div class="text">
+					<h1 class="title">Lady Diana</h1>
+					<p class="img-caption">The Queen of human hearts</p>
+				</div>
+			</section>
+			<!-- Biography information -->
+			<section id="biography">
+				<h2>Biography</h2>
+				<div class="tribute-info">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpBZwSzm5WoBpxkMjLXbS67b9lp__G1ivd3A&usqp=CAU"
+						alt="Princess Diana image"
+					/>
+					<p>
+						Diana Francis Spencer is the first wife of the heir to the British throne, Prince Charles, who became King Charles III in 2022. Her style, femininity and boldness were admired all over the world, as she was the first who was not afraid to speak honestly about her life in the British royal family.
+						<a
+							id="tribute-img"
+							href="https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales"
+							title="Princess Diana Biography"
+							target="_blank"
+							>More about Princess Diana Biography...</a
+						>
+					</p>
+				</div>
+			</section>
+<!-- Famyli information -->
+<section id="famyli">
+    <h2>Famyli</h2>
+    <div class="row">
+        <div class="famyli-card">
+            <img
+                src="https://wl-adme.cf.tsp.li/resize/728x/jpg/92a/e38/39b6c453929d5720188c66a582.jpg"
+                alt="Diana and children"
+            />
+            <div class="famyli-text">
+                <p>Diana, William and Harry</p>
+            </div>
+        </div>
+        <div class="famyli-card">
+            <img
+                src="https://n1s1.hsmedia.ru/6d/b1/4d/6db14d2135a1406713300bed2c154604/330x500_0xac120003_10472611431562634255.jpg"
+                alt="Diana and William"
+            />
+            <div class="famyli-text">
+                <p>Diana and William</p>
+            </div>
+        </div>
+        <div class="famyli-card">
+            <img
+                src="https://i.pinimg.com/originals/a9/da/4d/a9da4df0b8eb20f843b42f1c686dea40.jpg"
+                alt="Diana and children"
+            />
+            <div class="famyli-text">
+                <p>Diana, William and Harry</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- More information in external links -->
+<section id="info">
+    <h2>More information</h2>
+    <div class="content-logos">
+        <div class="logo">
+            <a
+                href="https://instagram.com/lady.diana._?igshid=YmMyMTA2M2Y="
+                title="Princess Diana fan Instagram"
+                target="_blank"
+                ><img
+                    src="https://img.icons8.com/nolan/40/000000/instagram-new.png"
+                    alt="instagram logo"
+            /></a>
+        </div>
+        <div class="logo">
+            <a
+                href="https://www.youtube.com/watch?v=MkkLOLXLLpY"
+                title="The Life of Princess Diana YouTube"
+                ><i class="fab fa-youtube" style="font-size: 38px; color: red"></i
+            ></a>
+        </div>
+    </div>
+</section>
+</main>
+<!-- Footer  -->
+<footer>
+    <p>
+        &copy; 2023 Svetlana Paks &bull;
+        <a href="https://github.com/svpaks" target="_blank">DI-Bootcamp-Stage1</a>
+    </p>
+</footer>
+</body>
+</html>
