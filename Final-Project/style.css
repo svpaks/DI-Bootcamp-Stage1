@@ -136,9 +136,9 @@ h2 {
 	font-size: 18px;
 }
 
-/*famyli section*/
+/*family section*/
 
-#famyli {
+#family {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -157,7 +157,7 @@ h2 {
 	max-width: 1345px;
 }
 
-.famyli-card {
+.family-card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -168,18 +168,18 @@ h2 {
 	margin: 35px;
 }
 
-.famyli-card img {
+.family-card img {
 	width: 130px;
 	height: 130px;
 	border-radius: 100%;
 	border: 1px solid #cccccc;
 }
 
-.famyli-card p {
+.family-card p {
 	margin: 10px 0;
 }
 
-.famyli-card p:first-of-type {
+.family-card p:first-of-type {
 	margin-top: 30px;
 }
 
@@ -223,3 +223,26 @@ footer a {
 footer a:hover {
 	color: #160aa1;
 }
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 900px;
+    margin-top: 200px;
+/*    text-align: right; */
+    color: rgb(255, 255, 210);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 330px;
+    height:fit-content;
+    padding: 10px;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border-radius: 0.5rem;
+}
+
+.family-card {
+    transition: 1s; 
+   }
+.family-card:hover {
+    transform: scale(2); 
+   }
